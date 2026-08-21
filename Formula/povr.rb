@@ -1,5 +1,5 @@
 class Povr < Formula
-  desc "Pushover CLI client with native macOS notifications"
+  desc "Unofficial Pushover CLI client with native macOS notifications"
   homepage "https://github.com/vshuraeff/pushover"
   url "https://github.com/vshuraeff/pushover/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "REPLACE_WITH_ACTUAL_SHA256" # fill in when v0.1.0 is tagged and pushed

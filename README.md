@@ -2,6 +2,8 @@
 
 This tap distributes `povr`, a Pushover command-line client with native macOS notifications.
 
+povr is an unofficial, independent client and is not affiliated with or endorsed by Pushover, LLC.
+
 ## Install
 
 ```sh
