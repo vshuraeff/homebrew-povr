@@ -7,8 +7,8 @@ class Povr < Formula
 
   head "https://github.com/vshuraeff/pushover.git", branch: "master"
 
-  depends_on :xcode => :build
   depends_on "go" => :build
+  depends_on xcode: :build
 
   def install
     ldflags = "-X github.com/vshuraeff/pushover/internal/cli.Version=#{version} -X github.com/vshuraeff/pushover/internal/cli.HelperBundlePath=#{libexec}/Povr.app"
