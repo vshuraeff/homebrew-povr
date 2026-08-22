@@ -13,7 +13,7 @@ class Povr < Formula
   def install
     ldflags = "-X github.com/vshuraeff/pushover/internal/cli.Version=#{version} -X github.com/vshuraeff/pushover/internal/cli.HelperBundlePath=#{libexec}/Povr.app"
     system "go", "build", *std_go_args(output: bin/"povr", ldflags: ldflags), "./cmd/povr"
-    generate_completions_from_executable(bin/"povr", "completion", shell_parameter_format: :cobra)
+    generate_completions_from_executable(bin/"povr", shell_parameter_format: :cobra)
 
     bundle = libexec/"Povr.app"
     (bundle/"Contents/MacOS").mkpath
