@@ -1,8 +1,8 @@
 class Povr < Formula
   desc "Unofficial Pushover CLI client with native macOS notifications"
   homepage "https://github.com/vshuraeff/pushover"
-  url "https://github.com/vshuraeff/pushover/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "18fd2031ebb9b034e9c0f641dbc975be5ef0fc4176da22310467613e54da5fd2"
+  url "https://github.com/vshuraeff/pushover/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "6a3d8c8668c00036378ef6b7868b2cc4b70d5bdb4970caf6179f1d82abe9f5dd"
   license "MIT"
 
   head "https://github.com/vshuraeff/pushover.git", branch: "master"
